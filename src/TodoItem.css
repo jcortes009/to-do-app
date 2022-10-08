@@ -1,0 +1,67 @@
+.TodoItem {
+    background-color: #f3d8d8;
+    position: relative;
+    display: flex;
+    border-radius: 40px 0 40px 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 20px rgb(190, 249, 63);
+}
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    min-width: 120px;
+    max-width: 200px;
+    font-size: 1.8rem;
+    line-height: 24px;
+    font-weight: 400;
+}
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+.Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+.Icon-check {
+    background-image: url('../public/checkmark-white.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 3%;
+}
+.Icon-check--active {
+    background-image: url('../public/checkmark-green.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 3%;
+}
+.Icon-delete {
+    background-image: url('../public/garbage-bin-yellow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 33px;
+    height: 38px;
+}
+.Icon-delete:hover {
+    background-image: url('../public/garbage-bin-red.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 33px;
+    height: 38px;
+}

@@ -1,0 +1,9 @@
+.TodoCounter { 
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    color: rgb(232, 226, 226);
+    font-style: italic;
+    font-weight: bolder;
+}
