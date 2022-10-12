@@ -9,15 +9,17 @@
     box-shadow: 0px 5px 20px rgb(190, 249, 63);
 }
 .TodoItem-p {
+    color: #37376a;
     margin: 24px 0 24px 24px;
     min-width: 120px;
     max-width: 200px;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .TodoItem-p--complete {
     text-decoration: line-through;
+    color: #f5526b;
 }
 .Icon {
     cursor: pointer;
@@ -28,7 +30,7 @@
     width: 48px;
 }
 .Icon-check {
-    background-image: url('../public/checkmark-white.png');
+    background-image: url('../../public/checkmark-white.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +38,7 @@
     left: 3%;
 }
 .Icon-check--active {
-    background-image: url('../public/checkmark-green.png');
+    background-image: url('../../public/checkmark-green.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +46,7 @@
     left: 3%;
 }
 .Icon-delete {
-    background-image: url('../public/garbage-bin-yellow.png');
+    background-image: url('../../public/garbage-bin-yellow.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +57,7 @@
     height: 38px;
 }
 .Icon-delete:hover {
-    background-image: url('../public/garbage-bin-red.png');
+    background-image: url('../../public/garbage-bin-red.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

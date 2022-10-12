@@ -1,0 +1,13 @@
+.EmptyList{
+    margin-bottom: -10px;
+}
+
+.EmptyList-image {
+    background-image: url('../../public/add-task.png');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    object-fit: cover;
+}

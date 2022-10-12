@@ -5,27 +5,34 @@
 }
 html {
   font-size: 62.5%;
-  font-family: 'BIZ UDGothic', sans-serif;
+  font-family: 'Caveat', cursive;
 }
 
 body { 
   background-color: #37376a;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  
-}
-main {
-  min-width: 320px;
-  max-width: 600px;
-  height: 100%; 
-  background-color: transparent;
-  padding: 0 10px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin: 0 auto;
-}
-section {
-  height: auto;
+  position: relative;
+ 
 }
 
+ main {
+  height: 100vh;
+  min-width: 300px;
+  max-width: 600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0 auto;
+  
+  
+  padding: 0 12px;
+}
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  }
+  p {
+    margin: 4px 15%;
+  }
+}
