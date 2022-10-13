@@ -1,18 +1,15 @@
-.LoadingTodos--container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.LoadingTodos {
+    display: block;
+}
+
+.LoadingTodos-image--container {
+     display: flex;
+     justify-content:space-evenly;
+     margin: 0 auto;
+     margin-top: 40px;
 
 }
-.LoadingTodos {
-    
-    background-color: whitesmoke;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-top: 40px;
-    display: inline-block;
-}
+
 @keyframes loading {
     0% {
         height: 20px;
@@ -30,20 +27,29 @@
     }
 }
 
-.image1{
-    margin-left: 50px;
+.LoadingTodos-image1 {
+    background-color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     animation-name: loading;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-.image2{
-    margin-left: 70px;
+.LoadingTodos-image2{
+    background-color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     animation-name: loading;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-.image3{
-    margin-left: 70px;
+.LoadingTodos-image3{
+    background-color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     animation-name: loading;
     animation-duration: 1s;
     animation-iteration-count: infinite;
