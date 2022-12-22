@@ -1,16 +1,13 @@
 import React from 'react';
-import  { TodoContext } from '../TodoContext/index.js';
 import './TodoForm.css';
 
- function  TodoForm () {
+ function  TodoForm ({ addToDo, 
+  setOpenModal }) {
     
   //create a nuw state for the ToDos
   const [newTodoValue, setNewTodoValue] = React.useState('');
   //function we need to add a ToDo and close the window
-  const { 
-          addToDo, 
-          setOpenModal,
-        } = React.useContext(TodoContext);
+  
         
         //create a function to  update the satate of the new ToDo
         const onChange = (event) => {
