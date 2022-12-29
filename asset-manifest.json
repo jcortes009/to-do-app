@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/to-do-app/static/css/main.3a26a8b4.css",
-    "main.js": "/to-do-app/static/js/main.2f4ba81c.js",
+    "main.css": "/to-do-app/static/css/main.ec825462.css",
+    "main.js": "/to-do-app/static/js/main.1f8e1493.js",
     "static/media/add-task.png": "/to-do-app/static/media/add-task.2e1abc4655936dacdd75.png",
+    "static/media/refresh-icon-gray.png": "/to-do-app/static/media/refresh-icon-gray.bd494d2796cb685c4c96.png",
     "static/media/garbage-bin-red.png": "/to-do-app/static/media/garbage-bin-red.e32dcb08c9f12739d1d5.png",
     "static/media/garbage-bin-yellow.png": "/to-do-app/static/media/garbage-bin-yellow.4116e731cba291cd4ac5.png",
     "static/media/checkmark-green.png": "/to-do-app/static/media/checkmark-green.04f58b11793289e2dc0f.png",
     "static/media/checkmark-white.png": "/to-do-app/static/media/checkmark-white.74d09d1eefba0be97f73.png",
     "index.html": "/to-do-app/index.html",
-    "main.3a26a8b4.css.map": "/to-do-app/static/css/main.3a26a8b4.css.map",
-    "main.2f4ba81c.js.map": "/to-do-app/static/js/main.2f4ba81c.js.map"
+    "main.ec825462.css.map": "/to-do-app/static/css/main.ec825462.css.map",
+    "main.1f8e1493.js.map": "/to-do-app/static/js/main.1f8e1493.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a26a8b4.css",
-    "static/js/main.2f4ba81c.js"
+    "static/css/main.ec825462.css",
+    "static/js/main.1f8e1493.js"
   ]
 }
