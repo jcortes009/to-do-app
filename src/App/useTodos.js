@@ -9,6 +9,7 @@ function useTodos() {
   
         item: toDos,
         saveItem: saveToDos,
+        sinchronizeItem: sinchronizeTodos,
         loading,      
         error,
       
@@ -75,6 +76,7 @@ function useTodos() {
             deleteToDo,
             openModal,
             setOpenModal,
+            sinchronizeTodos,
 
       
 

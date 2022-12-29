@@ -41,6 +41,7 @@ import './TodoForm.css';
                 value={newTodoValue}
                   onChange={onChange}
                   placeholder="New ToDo..."
+                  required
                   />
                   <div className="TodoForm-buttonContainer">
                     <button 

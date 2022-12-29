@@ -3,7 +3,7 @@ import './LoadingTodos.css'
 
 function LoadingTodos () {
     return <div className="LoadingTodos">
-        <p>Please wait, we are loading ...</p>
+        <p>Please wait...</p>
 
         <div  className="LoadingTodos-image--container">
         <div className="LoadingTodos-image1"></div>
